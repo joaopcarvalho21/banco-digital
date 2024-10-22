@@ -55,3 +55,60 @@ Escolha uma operação:
 
 Este projeto visa aprimorar habilidades de programação e design de sistemas, servindo como uma base para futuras implementações e aprendizado. Sinta-se à vontade para contribuir ou expandir as funcionalidades!
 
+---
+
+# Digital Bank Project
+
+## Description
+
+This project is a simulation of a digital banking system, developed for study purposes and to enhance programming skills. The system allows for banking operations such as deposits, withdrawals, and transfers between accounts, demonstrating good programming practices and software design.
+
+## Developed Competencies
+
+- **Object-Oriented Programming (OOP)**: The project utilizes OOP concepts like encapsulation, inheritance, and abstraction to model entities such as `Client`, `Account`, `CheckingAccount`, and `SavingsAccount`.
+- **Exception Handling**: Implementation of custom exceptions to handle errors, such as insufficient funds, ensuring the system operates robustly.
+- **Data Structures**: Use of lists to manage clients and accounts, demonstrating skills in data organization and manipulation.
+- **Random Number Generation**: Generation of account numbers randomly, mimicking market practices in banking.
+- **User Interaction**: Use of terminal input for data entry, providing a simple and functional user interface.
+
+## Code Structure
+
+### Main Classes
+
+- **`Client`**: Represents a bank client with attributes such as name.
+- **`Account`**: An abstract class that defines basic operations of a bank account (withdraw, deposit, transfer). The agency is fixed at `0001`, and the account number is generated randomly.
+- **`CheckingAccount` and `SavingsAccount`**: Extensions of the `Account` class, each with specific methods to print statements.
+- **`Bank`**: Manages the list of clients and their accounts, allowing for the addition and listing of clients.
+
+### Example Execution
+
+Here’s an example of how the system can be used:
+
+```plaintext
+Enter the client's name: 
+John Doe
+Client added: John Doe
+
+Choose an operation:
+1 - Deposit into Checking Account
+2 - Withdraw from Checking Account
+3 - Transfer from Checking to Savings Account
+4 - Print Checking Account Statement
+5 - Print Savings Account Statement
+6 - Check Checking Account Balance
+7 - List Clients
+8 - Exit
+```
+
+### Operation Details
+
+1. **Deposit into Checking Account**: Prompts the user for a value and adds it to the checking account balance.
+2. **Withdraw from Checking Account**: Prompts the user for a value and attempts to perform the withdrawal. If the balance is insufficient, an exception is thrown, and a message is displayed.
+3. **Transfer from Checking to Savings Account**: Prompts for a value and transfers it to the savings account, validating the balance.
+4. **Print Statement**: Displays information such as account holder, agency, account number, and balance.
+5. **Check Balance**: Shows the current balance of the checking account.
+6. **List Clients**: Displays all registered clients in the bank.
+
+## Conclusion
+
+This project aims to enhance programming and system design skills, serving as a foundation for future implementations and learning. Feel free to contribute or expand the functionalities!
