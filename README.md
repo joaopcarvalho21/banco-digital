@@ -2,7 +2,7 @@
 # Projeto Banco Digital
 
 ## Descrição
-Projeto realizado para o Bootcamp Dio - Java com Spring Boot, Este projeto é uma simulação de um sistema de banco digital, desenvolvido para fins de estudo e aprimoramento de habilidades em programação orientada a objetos, manipulação de exceções e gerenciamento de dados. O sistema permite a realização de operações bancárias como depósitos, saques e transferências entre contas, demonstrando boas práticas de programação e design de software.
+Projeto realizado para o Bootcamp Dio - Java com Spring Boot, este projeto é uma simulação de um sistema de banco digital, desenvolvido para fins de estudo e aprimoramento de habilidades em programação orientada a objetos, manipulação de exceções e gerenciamento de dados. O sistema permite a realização de operações bancárias como depósitos, saques e transferências entre contas, demonstrando boas práticas de programação e design de software.
 
 ## Competências Desenvolvidas
 
